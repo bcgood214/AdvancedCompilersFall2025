@@ -1,0 +1,10 @@
+- "Tree" and "Node" classes implemented to aid with back edge detection
+- mycfg contains three test function: test_reverse_order, back_edges_test_case, and reducible_test
+	- all three of these functions are implemented in the mycfg file
+	- the simple tests they define can be executed by simply uncommenting the respective function in the __main__ block
+- the only external file used for tests is jmp.bril
+	- the same jmp.bril used by Dr. Sampson in his videos
+	- command: bril2json < test/interp/core/jmp.bril | python3 mycfg.py (inside bril directory)
+- If memory serves, some of the test files included in the bril repository did not run properly when tested
+	- I have yet to find where my code diverges from Dr. Sampson's, whose coding I followed strictly for the original CFG implementation
+- my code seems a bit to verbose, but I didn't get as much time with this one as I would have liked

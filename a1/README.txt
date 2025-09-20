@@ -7,4 +7,4 @@
 	- command: bril2json < test/interp/core/jmp.bril | python3 mycfg.py (inside bril directory)
 - If memory serves, some of the test files included in the bril repository did not run properly when tested
 	- I have yet to find where my code diverges from Dr. Sampson's, whose coding I followed strictly for the original CFG implementation
-- my code seems a bit to verbose, but I didn't get as much time with this one as I would have liked
+- my code seems a bit too verbose, but I didn't get as much time with this one as I would have liked

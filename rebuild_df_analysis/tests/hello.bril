@@ -1,0 +1,10 @@
+@main() {
+    v: int = const 2;
+    b: bool = const false;
+    jmp .there;
+.here:
+    v: int = const 3;
+    x: int = const 5;
+.there:
+    print v;
+}

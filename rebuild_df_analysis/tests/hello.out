@@ -1,0 +1,9 @@
+b1:
+  in:  ∅
+  out: b, v
+here:
+  in:  ∅
+  out: v, x
+there:
+  in:  b, v, x
+  out: b, v, x

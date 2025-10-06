@@ -1,0 +1,3 @@
+- rebuilt from the ground up
+- still has some bugs, such as print statements seemingly being included in AE analysis
+- "reach" is the default command when run with turnt, can test AE with "bril2json < tests/adding.bril | python3 df.py ae" if file is placed in Bril repo.

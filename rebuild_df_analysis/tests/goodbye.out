@@ -1,0 +1,6 @@
+b1:
+  in:  ∅
+  out: v
+final:
+  in:  v
+  out: v, x, y

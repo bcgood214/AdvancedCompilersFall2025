@@ -1,0 +1,18 @@
+@main() {
+    v: int = const 2;
+    print v;
+    jmp .here;
+.here:
+    v: int = const 4;
+    x: int = const 8;
+    y: int = add x v;
+    jmp .there;
+.there:
+    z: int = add y v;
+    print z;
+    jmp .final;
+.final:
+    x: int = const 6;
+    z: int = add y x;
+    print z;
+}

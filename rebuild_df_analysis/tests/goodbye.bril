@@ -1,0 +1,10 @@
+@main() {
+    v: int = const 2;
+    print v;
+    jmp .final;
+.final:
+    v: int = const 4;
+    x: int = const 8;
+    y: int = add x v;
+    print y;
+}

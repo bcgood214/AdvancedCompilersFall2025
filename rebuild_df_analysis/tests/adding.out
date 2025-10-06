@@ -1,0 +1,12 @@
+b1:
+  in:  ∅
+  out: v
+here:
+  in:  v
+  out: v, x, y
+there:
+  in:  v, x, y
+  out: v, x, y, z
+final:
+  in:  v, x, y, z
+  out: v, x, y, z
